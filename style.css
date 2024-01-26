@@ -41,3 +41,11 @@ h1{
     font-weight: bold;
     color:orange;
 }
+
+.homebutton{
+    background-color: darkslategray;
+    font-weight: 400;
+    color:orange;
+    font-size:xx-large;
+    font-family:'Times New Roman', Times, serif;
+}
