@@ -39,13 +39,17 @@ h1{
     float: left;
     background-color: darkslategray;
     font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
     color:orange;
 }
 
-.homebutton{
+.pageButton{
     background-color: darkslategray;
     font-weight: 400;
     color:orange;
     font-size:xx-large;
     font-family:'Times New Roman', Times, serif;
+    padding: 5px;
+    margin: 15px;
+
 }
