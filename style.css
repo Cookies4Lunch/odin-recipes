@@ -2,6 +2,7 @@
 body{
     background-image: url('images/blurrybackground1.jpeg');
     background-size:cover;
+    background-attachment: fixed;
 }
 
 .content{
@@ -10,7 +11,17 @@ body{
     text-align: center;
     list-style-position: inside;
     padding: 10px;
-    margin:20px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    outline: 2px solid red;
+    width:600px;
+}
+
+#webimg{
+    height:auto;
+    width:300px;
+    margin-top: 10px;
 }
 
 #link{
@@ -41,6 +52,7 @@ h1{
     font-weight: bold;
     font-family:'Times New Roman', Times, serif;
     color:orange;
+    padding: 5px;
 }
 
 .pageButton{
@@ -49,7 +61,13 @@ h1{
     color:orange;
     font-size:xx-large;
     font-family:'Times New Roman', Times, serif;
+    height:42px;
+    width: auto;
     padding: 5px;
     margin: 15px;
+    box-sizing: content-box;
+}
 
+li {
+    padding: 3px;
 }
