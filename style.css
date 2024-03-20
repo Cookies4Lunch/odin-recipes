@@ -14,7 +14,7 @@ body{
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
-    outline: 2px solid red;
+    outline: 2px solid rgb(228, 91, 0);
     width:600px;
 }
 
@@ -34,9 +34,8 @@ body{
     text-align: left;
 }
 
-.wrapper{
+.content.wrapper{
     max-width: 500px;
-    display: inline;
 }
 
 
